@@ -1,9 +1,9 @@
 import smtplib
 print('*** Start of the Program ***')
 while True:
-    sender = "yessou.rayan@gmail.com"
-    sender_password = "Ciccione"
-    receivers = 'rhino.backup1@gmail.com'
+    sender = "email"
+    sender_password = "pass"
+    receivers = '@gmail.com'
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
